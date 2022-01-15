@@ -1,24 +1,24 @@
-import spotipy
-from spotipy.oauth2 import SpotifyClientCredentials
-import pprint
+# import spotipy
+# from spotipy.oauth2 import SpotifyClientCredentials
+# import pprint
  
-cid = '13b0455fa25e466b84e581503350d4b5'
-secret = '493e965c32c24fb1859e7e7d20a2cc38'
-client_credentials_manager = SpotifyClientCredentials(client_id=cid, client_secret=secret)
+# cid = '13b0455fa25e466b84e581503350d4b5'
+# secret = '493e965c32c24fb1859e7e7d20a2cc38'
+# client_credentials_manager = SpotifyClientCredentials(client_id=cid, client_secret=secret)
  
-sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
+# sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
-result = sp.search("coldplay", limit=1, type='artist')
-pprint.pprint(result)
+# result = sp.search("coldplay", limit=1, type='artist')
+# pprint.pprint(result)
 
 
 
 # 내가 사용할 코드
-# import requests
-# import base64
-# import json
+import requests
+import base64
+import json
 
-# import Search
+#import Search
 
 # client_id = '13b0455fa25e466b84e581503350d4b5'
 # client_secret = '493e965c32c24fb1859e7e7d20a2cc38'
@@ -31,7 +31,6 @@ pprint.pprint(result)
 
 # response = requests.post(endpoint, data=payload, headers=headers)
 # access_token = json.loads(response.text)['access_token']
-
 # search_data = Search.artist('BTS', headers)['artists']
 # for item in search_data['items']:
 #     #print(item.keys())
