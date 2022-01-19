@@ -1,8 +1,8 @@
 import pymysql
 
-endpoint = 'mr-chat-db.cpy6zq2blafd.us-east-2.rds.amazonaws.com'
+endpoint = ''
 username = 'admin'
-password = 'k1305602!'
+password = ''
 database_name = 'Transactions_Prod'
 
 connection = pymysql.connect(host = endpoint, user = username, passwd=password, db=database_name)
