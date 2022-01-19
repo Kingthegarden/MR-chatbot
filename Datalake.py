@@ -8,15 +8,15 @@ from datetime import datetime
 import jsonpath
 import pandas as pd
 
-client_id = "13b0455fa25e466b84e581503350d4b5"
-client_secret = "493e965c32c24fb1859e7e7d20a2cc38"
+client_id = ""
+client_secret = ""
 
-ACCESS_KEY = 'AKIAWBUOKKKIRPJV4EPY'
-SECRET_KEY = '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'
+ACCESS_KEY = ''
+SECRET_KEY = '/wVzG8idfYv8hbI1'
 
-rds_host = 'mr-chat-db.cpy6zq2blafd.us-east-2.rds.amazonaws.com' #RDS: endpoint
+rds_host = '' #RDS: endpoint
 rds_user ='admin' #RDS: admin
-rds_pwd = 'k1305602!'
+rds_pwd = ''
 rds_db = 'musicdb'
 
 try:

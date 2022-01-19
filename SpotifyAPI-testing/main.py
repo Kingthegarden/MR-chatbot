@@ -4,8 +4,8 @@ import json
 import Search
 import Artist
 
-client_id = "13b0455fa25e466b84e581503350d4b5"
-client_secret = "493e965c32c24fb1859e7e7d20a2cc38"
+client_id = ""
+client_secret = ""
 
 endpoint = "https://accounts.spotify.com/api/token"
 

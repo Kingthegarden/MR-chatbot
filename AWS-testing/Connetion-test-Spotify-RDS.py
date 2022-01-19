@@ -10,12 +10,12 @@ from boto3.dynamodb.conditions import Attr
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
-client_id = "13b0455fa25e466b84e581503350d4b5"
-client_secret = "493e965c32c24fb1859e7e7d20a2cc38"
+client_id = ""
+client_secret = ""
 
-rds_host = 'mr-chat-db.cpy6zq2blafd.us-east-2.rds.amazonaws.com'
+rds_host = ''
 rds_user ='admin'
-rds_pwd = 'k1305602!'
+rds_pwd = ''
 rds_db = 'musicdb'
 
 try:

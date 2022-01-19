@@ -2,8 +2,8 @@
 # from spotipy.oauth2 import SpotifyClientCredentials
 # import pprint
  
-# cid = '13b0455fa25e466b84e581503350d4b5'
-# secret = '493e965c32c24fb1859e7e7d20a2cc38'
+# cid = ''
+# secret = ''
 # client_credentials_manager = SpotifyClientCredentials(client_id=cid, client_secret=secret)
  
 # sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
@@ -14,14 +14,14 @@
 
 
 # 내가 사용할 코드
-import requests
-import base64
-import json
+# import requests
+# import base64
+# import json
 
 #import Search
 
-# client_id = '13b0455fa25e466b84e581503350d4b5'
-# client_secret = '493e965c32c24fb1859e7e7d20a2cc38'
+# client_id = ''
+# client_secret = ''
 # endpoint = 'https://accounts.spotify.com/api/token'
 
 # encoded = base64.b64encode('{}:{}'.format(client_id, client_secret).encode('utf-8')).decode('ascii')

@@ -4,9 +4,9 @@ import logging
 import time
 import pymysql
 
-mysql_host = 'localhost'
+mysql_host = ''
 mysql_user = 'root'
-mysql_pwd = 'k1305602!'
+mysql_pwd = ''
 mysql_db = 'musicdb'
 
 
