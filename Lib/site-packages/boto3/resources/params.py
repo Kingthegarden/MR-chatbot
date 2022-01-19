@@ -4,7 +4,7 @@
 # may not use this file except in compliance with the License. A copy of
 # the License is located at
 #
-# https://aws.amazon.com/apache2.0/
+# http://aws.amazon.com/apache2.0/
 #
 # or in the "license" file accompanying this file. This file is
 # distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
@@ -19,7 +19,7 @@ from botocore import xform_name
 from ..exceptions import ResourceLoadException
 
 
-INDEX_RE = re.compile(r'\[(.*)\]$')
+INDEX_RE = re.compile('\[(.*)\]$')
 
 
 def get_data_member(parent, path):
