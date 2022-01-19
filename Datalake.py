@@ -12,7 +12,7 @@ client_id = ""
 client_secret = ""
 
 ACCESS_KEY = ''
-SECRET_KEY = '/wVzG8idfYv8hbI1'
+SECRET_KEY = ''
 
 rds_host = '' #RDS: endpoint
 rds_user ='admin' #RDS: admin
