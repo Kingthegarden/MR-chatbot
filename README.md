@@ -38,7 +38,7 @@ AWS를 사용한 데이터 수집·저장·처리 그리고 유사도 분석까�
 ## 데이터파이프라인 
 ### S3, Athena, boto3 등을 활용한 AWS기반의 데이터 파이프라인 
 
-![datapipline](images/datapipeline_2.PNG)
+![datapipline](images/datapipeline.PNG)
 
 - Spotify API에서 수집한 raw 데이터와 RDS, DynamoDB에 저장되어 있던 데이터를 S3로 모아 DataLake 구현 
 - 대화형 쿼리엔진 Athena를 사용하여 쿼리수행 후 유사도 분석 결과를 별도로 저장하여 데이터 마트 구현
@@ -76,8 +76,8 @@ AWS를 사용한 데이터 수집·저장·처리 그리고 유사도 분석까�
 ## 프로젝트 결과 
 1. 신규 아티스트 입력결과 : 유저가 입력한 아티스트와 노래정보 전달
 
-![사례1 분석중](https://user-images.githubusercontent.com/78723318/124323880-fb37ba00-dbbc-11eb-86ac-c511dfb9a8e7.PNG)
+![serverelss2](images/chat_result1.PNG)
 
 2. 기존 아티스트 입력결과 : 유저가 입력한 아티스트 정보를 바탕으로 데이터처리 및 분석결과 (가장 유사한 아티스트의 노래정보) 전달 <br>
 
-![사례2 분석결과](https://user-images.githubusercontent.com/78723318/124323992-291cfe80-dbbd-11eb-9abc-7be9b5ff6835.PNG)
+![serverelss2](images/chat_result2.PNG)
