@@ -55,7 +55,7 @@ AWS를 사용한 데이터 수집·저장·처리 그리고 유사도 분석까�
 - 신규 아티스트를 받았을 경우, Spotify API를 통해 관련 데이터 수집 및 저장 
 - AWS RDS : 아티스트 데이터(artists), AWS DynamoDB : 아티스트의 음악정보 데이터(top_track) 저장
 
-### 2. S3_Datalake.py
+### 2. Datalake.py
 #### raw 데이터를 parquet 포맷으로 압축하여 S3에 저장하는 로직처리 → DataLake 구현 <br>
 
 ![Untitled (3)](https://user-images.githubusercontent.com/78723318/123921987-8ac54900-d9c2-11eb-998f-46ce5d1c4a64.png)
