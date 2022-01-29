@@ -27,7 +27,7 @@ AWS를 사용한 데이터 수집·저장·처리 그리고 유사도 분석까�
 ## 아키텍쳐  
 ### AWS API Gateway와 AWS Lambda기반의 Serverless 구조
 
-![serverelss2](images/serverless_2.PNG)
+![serverelss2](images/Architecture.png)
 
 - 사용자가 챗봇에게 아티스트를 입력하면 API Gateway가 트리거가 되어 lambda 함수가 호출
 - 챗봇이 API Gateway를 거쳐 POST 방식으로 보낸 request 메세지를 lambda가 받아 처리한다.   
